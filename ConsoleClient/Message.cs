@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleClientMessager
 {
+    [Serializable]
     public class Message
     {
         public string UserName { get; set; }
