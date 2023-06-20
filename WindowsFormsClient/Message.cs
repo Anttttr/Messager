@@ -13,6 +13,7 @@ namespace ConsoleClientMessager
         public string MessageText { get; set; }
         public DateTime TimeStamp { get; set; }
 
+
         public Message(string userName, string messageText, DateTime timeStamp)
         {
             UserName = userName;
