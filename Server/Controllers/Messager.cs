@@ -16,7 +16,7 @@ namespace Server.Controllers
         public string Get(int id)
         {
             string OutputString = "Not found";
-            if ((id < ListOfMessages.Count) && (id > 0))
+            if ((id < ListOfMessages.Count) && (id >= 0))
             {
                 OutputString = JsonConvert.SerializeObject(ListOfMessages[id]);
             }
